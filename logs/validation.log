@@ -1,0 +1,19 @@
+2026-05-27 02:38:53,445 - INFO - Inicio del proceso de validación estructural y semántica del pipeline DataOps
+2026-05-27 02:38:56,042 - INFO - Dataset loans_clean.csv cargado desde data/processed: 45000 registros listos para validar
+2026-05-27 02:39:03,748 - INFO - Dataset loans_clean.csv cargado desde data/processed: 45000 registros listos para validar
+2026-05-27 02:39:05,733 - INFO - Validación estructural APROBADA - Las 14 columnas del metadata están presentes
+2026-05-27 02:39:05,736 - INFO - Validación estructural APROBADA - Columna person_age: tipo correcto (int64)
+2026-05-27 02:39:05,736 - INFO - Validación estructural APROBADA - Columna person_income: tipo correcto (int64)
+2026-05-27 02:39:05,736 - INFO - Validación estructural APROBADA - Columna person_emp_exp: tipo correcto (int64)
+2026-05-27 02:39:05,736 - INFO - Validación estructural APROBADA - Columna loan_amnt: tipo correcto (int64)
+2026-05-27 02:39:05,737 - INFO - Validación estructural APROBADA - Columna cb_person_cred_hist_length: tipo correcto (int64)
+2026-05-27 02:39:05,737 - INFO - Validación estructural APROBADA - Columna credit_score: tipo correcto (int64)
+2026-05-27 02:39:05,737 - INFO - Validación estructural APROBADA - Columna loan_status: tipo correcto (int64)
+2026-05-27 02:39:07,962 - INFO - Validación semántica - person_age (rango válido 18-100): 7 registros rechazados
+2026-05-27 02:39:07,964 - INFO - Validación semántica - credit_score (rango válido 300-850): 0 registros rechazados
+2026-05-27 02:39:07,966 - INFO - Validación semántica - person_income (debe ser mayor a 0): 0 registros rechazados
+2026-05-27 02:39:07,968 - INFO - Validación semántica - loan_percent_income (rango válido 0-1): 0 registros rechazados
+2026-05-27 02:39:10,945 - INFO - Separación completada - Registros válidos aptos para carga: 44993
+2026-05-27 02:39:10,945 - INFO - Separación completada - Registros inválidos para revisión: 7
+2026-05-27 02:39:11,175 - INFO - loans_validos.csv y loans_invalidos.csv exportados a data/processed para etapa de carga
+2026-05-27 02:39:11,175 - INFO - Fin del proceso de validación estructural y semántica - Dataset listo para etapa de carga
