@@ -48,9 +48,16 @@ dataops-loan-pipeline/
 ```
 ## Cómo ejecutar el pipeline
 
-### 1. Levantar PostgreSQL con Docker
+### 1. Levantar PostgreSQL con Docker o Reiniciarlo
 ```bash
 docker-compose up -d
+
+docker-compose down && docker-compose up -d
+```
+
+### 1.5 Comprobar que funcione el Docker
+```bash
+docker ps
 ```
 
 ### 2. Instalar dependencias
@@ -61,6 +68,11 @@ pip install -r requirements.txt
 ### 3. Abrir Jupyter
 ```bash
 jupyter notebook
+```
+
+### 3.5 Borrar logs existentes si es necesario
+```bash
+rm logs/*.log
 ```
 
 ### 4. Correr los notebooks en orden

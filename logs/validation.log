@@ -1,18 +1,18 @@
-2026-05-28 19:48:04,589 - INFO - Inicio del proceso de validación estructural y semántica del pipeline DataOps
-2026-05-28 19:48:04,650 - INFO - Dataset loans_clean.csv cargado desde data/processed: 45000 registros listos para validar
-2026-05-28 19:48:04,674 - INFO - Validación estructural APROBADA - Las 14 columnas del metadata están presentes
-2026-05-28 19:48:04,675 - INFO - Validación estructural APROBADA - Columna person_age: tipo correcto (int64)
-2026-05-28 19:48:04,676 - INFO - Validación estructural APROBADA - Columna person_income: tipo correcto (int64)
-2026-05-28 19:48:04,676 - INFO - Validación estructural APROBADA - Columna person_emp_exp: tipo correcto (int64)
-2026-05-28 19:48:04,677 - INFO - Validación estructural APROBADA - Columna loan_amnt: tipo correcto (int64)
-2026-05-28 19:48:04,677 - INFO - Validación estructural APROBADA - Columna cb_person_cred_hist_length: tipo correcto (int64)
-2026-05-28 19:48:04,677 - INFO - Validación estructural APROBADA - Columna credit_score: tipo correcto (int64)
-2026-05-28 19:48:04,677 - INFO - Validación estructural APROBADA - Columna loan_status: tipo correcto (int64)
-2026-05-28 19:48:04,777 - INFO - Validación semántica - person_age (rango válido 18-100): 7 registros rechazados
-2026-05-28 19:48:04,782 - INFO - Validación semántica - credit_score (rango válido 300-850): 0 registros rechazados
-2026-05-28 19:48:04,787 - INFO - Validación semántica - person_income (debe ser mayor a 0): 0 registros rechazados
-2026-05-28 19:48:04,789 - INFO - Validación semántica - loan_percent_income (rango válido 0-1): 0 registros rechazados
-2026-05-28 19:48:04,845 - INFO - Separación completada - Registros válidos aptos para carga: 44993
-2026-05-28 19:48:04,845 - INFO - Separación completada - Registros inválidos para revisión: 7
-2026-05-28 19:48:05,110 - INFO - loans_validos.csv y loans_invalidos.csv exportados a data/processed para etapa de carga
-2026-05-28 19:48:05,110 - INFO - Fin del proceso de validación estructural y semántica - Dataset listo para etapa de carga
+2026-06-01 20:36:19,718 - INFO - Inicio del proceso de validación estructural y semántica del pipeline DataOps
+2026-06-01 20:36:20,449 - INFO - Dataset loans_clean.csv cargado desde data/processed: 45000 registros listos para validar
+2026-06-01 20:36:20,621 - INFO - Validación estructural APROBADA - Las 14 columnas del metadata están presentes
+2026-06-01 20:36:20,678 - INFO - Validación estructural APROBADA - Columna person_age: tipo correcto (int64)
+2026-06-01 20:36:20,682 - INFO - Validación estructural APROBADA - Columna person_income: tipo correcto (int64)
+2026-06-01 20:36:20,683 - INFO - Validación estructural APROBADA - Columna person_emp_exp: tipo correcto (int64)
+2026-06-01 20:36:20,683 - INFO - Validación estructural APROBADA - Columna loan_amnt: tipo correcto (int64)
+2026-06-01 20:36:20,683 - INFO - Validación estructural APROBADA - Columna cb_person_cred_hist_length: tipo correcto (int64)
+2026-06-01 20:36:20,683 - INFO - Validación estructural APROBADA - Columna credit_score: tipo correcto (int64)
+2026-06-01 20:36:20,683 - INFO - Validación estructural APROBADA - Columna loan_status: tipo correcto (int64)
+2026-06-01 20:36:20,766 - INFO - Validación semántica - person_age (rango válido 18-100): 7 registros rechazados
+2026-06-01 20:36:20,770 - INFO - Validación semántica - credit_score (rango válido 300-850): 0 registros rechazados
+2026-06-01 20:36:20,772 - INFO - Validación semántica - person_income (debe ser mayor a 0): 0 registros rechazados
+2026-06-01 20:36:20,774 - INFO - Validación semántica - loan_percent_income (rango válido 0-1): 0 registros rechazados
+2026-06-01 20:36:20,802 - INFO - Separación completada - Registros válidos aptos para carga: 44993
+2026-06-01 20:36:20,802 - INFO - Separación completada - Registros inválidos para revisión: 7
+2026-06-01 20:36:21,257 - INFO - loans_validos.csv y loans_invalidos.csv exportados a data/processed para etapa de carga
+2026-06-01 20:36:21,257 - INFO - Fin del proceso de validación estructural y semántica - Dataset listo para etapa de carga
