@@ -1,8 +1,8 @@
-2026-06-01 20:36:18,112 - INFO - Inicio del proceso de ingesta
-2026-06-01 20:36:20,962 - INFO - Conexión a PostgreSQL exitosa - Base de datos: loans_db
-2026-06-01 20:36:21,131 - INFO - CSV loan_data.csv leído correctamente desde data/raw: 45000 registros crudos sin procesar
-2026-06-01 20:36:25,907 - INFO - Tabla loans_raw creada en PostgreSQL con 45000 registros crudos para procesamiento
-2026-06-01 20:36:26,169 - INFO - Datos leídos desde tabla loans_raw en PostgreSQL: 45000 registros listos para limpiar
-2026-06-01 20:36:26,295 - INFO - Tipos de datos corregidos: person_age, person_income, loan_amnt, cb_person_cred_hist_length convertidos de float64 a int64
-2026-06-01 20:36:26,608 - INFO - Dataset limpio exportado a data/processed/loans_clean.csv con 45000 registros procesados
-2026-06-01 20:36:26,608 - INFO - Fin del proceso de ingesta y limpieza - Dataset listo para etapa de validación
+2026-06-01 21:07:18,700 - INFO - Inicio del proceso de ingesta
+2026-06-01 21:07:18,809 - INFO - Conexión a PostgreSQL exitosa - Base de datos: loans_db
+2026-06-01 21:07:18,922 - INFO - CSV loan_data.csv leído correctamente desde data/raw: 45000 registros crudos sin procesar
+2026-06-01 21:07:23,028 - INFO - Tabla loans_raw creada en PostgreSQL con 45000 registros crudos para procesamiento
+2026-06-01 21:07:23,404 - INFO - Datos leídos desde tabla loans_raw en PostgreSQL: 45000 registros listos para limpiar
+2026-06-01 21:07:23,529 - INFO - Tipos de datos corregidos: person_age, person_income, loan_amnt, cb_person_cred_hist_length convertidos de float64 a int64
+2026-06-01 21:07:24,039 - INFO - Dataset limpio exportado a data/processed/loans_clean.csv con 45000 registros procesados
+2026-06-01 21:07:24,039 - INFO - Fin del proceso de ingesta y limpieza - Dataset listo para etapa de validación
