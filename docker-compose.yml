@@ -7,4 +7,21 @@ services:
       POSTGRES_DB: loans_db
     ports:
       - "5432:5432"
-      
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  metabase:
+    image: metabase/metabase:latest
+    container_name: metabase
+    ports:
+      - "3000:3000"
+    depends_on:
+      - postgres
+    volumes:
+      - metabase_data:/metabase-data
+    environment:
+      MB_DB_FILE: /metabase-data/metabase.db
+
+volumes:
+  postgres_data:
+  metabase_data:
