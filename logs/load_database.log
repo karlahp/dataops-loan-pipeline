@@ -12,3 +12,31 @@
 2026-06-01 21:08:05,266 - INFO - KPI - Tasa de completitud: 99.98%
 2026-06-01 21:08:05,266 - INFO - KPI - Tasa de registros inválidos: 0.02%
 2026-06-01 21:08:05,267 - INFO - KPI - Tasa de inválidos aceptable: 0.02% dentro del umbral del 5%
+2026-06-21 21:00:16,011 - INFO - Inicio del proceso de carga a PostgreSQL - Pipeline DataOps
+2026-06-21 21:00:17,362 - INFO - Conexión a PostgreSQL exitosa - Base de datos: loans_db
+2026-06-21 21:00:17,744 - INFO - loans_validos.csv cargado desde data/processed: 44993 registros aptos para carga
+2026-06-21 21:00:17,744 - INFO - loans_invalidos.csv cargado desde data/processed: 7 registros rechazados para auditoría
+2026-06-21 21:00:21,314 - INFO - Tabla loans_clean cargada exitosamente en PostgreSQL: 44993 registros válidos para análisis
+2026-06-21 21:00:21,325 - INFO - Tabla loans_error cargada exitosamente en PostgreSQL: 7 registros rechazados para auditoría
+2026-06-21 21:00:21,348 - INFO - Verificación exitosa - Tabla loans_clean en PostgreSQL: 44993 registros
+2026-06-21 21:00:21,352 - INFO - Verificación exitosa - Tabla loans_error en PostgreSQL: 7 registros
+2026-06-21 21:00:21,392 - INFO - Fin del proceso de carga a PostgreSQL - Pipeline DataOps completado exitosamente
+2026-06-21 21:00:21,392 - INFO - Resumen final - loans_clean: 44993 registros | loans_error: 7 registros | Total: 45000
+2026-06-21 21:00:21,410 - INFO - KPI - Total registros procesados: 45000
+2026-06-21 21:00:21,411 - INFO - KPI - Tasa de completitud: 99.98%
+2026-06-21 21:00:21,411 - INFO - KPI - Tasa de registros inválidos: 0.02%
+2026-06-21 21:00:21,414 - INFO - KPI - Tasa de inválidos aceptable: 0.02% dentro del umbral del 5%
+2026-06-24 05:42:56,912 - INFO - Inicio del proceso de carga a PostgreSQL - Pipeline DataOps
+2026-06-24 05:42:58,298 - INFO - Conexión a PostgreSQL exitosa - Base de datos: loans_db
+2026-06-24 05:42:58,737 - INFO - loans_validos.csv cargado desde data/processed: 44993 registros aptos para carga
+2026-06-24 05:42:58,737 - INFO - loans_invalidos.csv cargado desde data/processed: 7 registros rechazados para auditoría
+2026-06-24 05:43:01,783 - INFO - Tabla loans_clean cargada exitosamente en PostgreSQL: 44993 registros válidos para análisis
+2026-06-24 05:43:01,796 - INFO - Tabla loans_error cargada exitosamente en PostgreSQL: 7 registros rechazados para auditoría
+2026-06-24 05:43:01,820 - INFO - Verificación exitosa - Tabla loans_clean en PostgreSQL: 44993 registros
+2026-06-24 05:43:01,823 - INFO - Verificación exitosa - Tabla loans_error en PostgreSQL: 7 registros
+2026-06-24 05:43:01,871 - INFO - Fin del proceso de carga a PostgreSQL - Pipeline DataOps completado exitosamente
+2026-06-24 05:43:01,871 - INFO - Resumen final - loans_clean: 44993 registros | loans_error: 7 registros | Total: 45000
+2026-06-24 05:43:01,884 - INFO - KPI - Total registros procesados: 45000
+2026-06-24 05:43:01,884 - INFO - KPI - Tasa de completitud: 99.98%
+2026-06-24 05:43:01,885 - INFO - KPI - Tasa de registros inválidos: 0.02%
+2026-06-24 05:43:01,885 - INFO - KPI - Tasa de inválidos aceptable: 0.02% dentro del umbral del 5%
