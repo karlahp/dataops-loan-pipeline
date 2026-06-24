@@ -1,0 +1,10 @@
+2026-06-24 20:05:34 - INFO - Inicio del proceso de entrenamiento del modelo - Pipeline DataOps
+2026-06-24 20:05:34 - INFO - Dataset de entrada: loans_validos.csv - 44993 registros
+2026-06-24 20:05:34 - INFO - Partición train/test: 35994 entrenamiento / 8999 prueba (80/20, stratify=y)
+2026-06-24 20:05:34 - INFO - Modelo 1: Regresión Logística (penalty='l2', max_iter=500)
+2026-06-24 20:05:34 - INFO - Métricas LR - Accuracy: 0.8948 | Precision: 0.7715 | Recall: 0.7480 | F1: 0.7596 | AUC: 0.9523 | Gini: 0.9046
+2026-06-24 20:05:34 - INFO - Modelo 2: Random Forest (n_estimators=150, max_depth=8)
+2026-06-24 20:05:34 - INFO - Métricas RF - Accuracy: 0.9208 | Precision: 0.9149 | Recall: 0.7095 | F1: 0.7992 | AUC: 0.9689 | Gini: 0.9377
+2026-06-24 20:05:34 - INFO - Modelo seleccionado: Random Forest (mejor AUC y Gini)
+2026-06-24 20:05:34 - INFO - Modelos exportados: random_forest_modelo.joblib, regresion_logistica_modelo.joblib, scaler.joblib
+2026-06-24 20:05:34 - INFO - Fin del proceso de entrenamiento - Modelo listo para inferencia
